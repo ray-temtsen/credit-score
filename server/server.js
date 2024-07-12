@@ -27,7 +27,7 @@ app.use('/api', router);
 app.use('/api', apiKeyMiddleware);
 
 //routes
-router.get("/credit-score/:address", async (req, res) => {
+router.get('/credit-score/:address', async (req, res) => {
     try {
         const address = req.params.address;
         if (!ethers.utils.isAddress(address)) {

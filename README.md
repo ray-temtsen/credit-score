@@ -17,13 +17,18 @@ The `CreditScore` contract calculates and stores user credit scores based on tra
 ## Deployment
 Deployed the contract on Sepolia testnet.
 
-## Building
-Build using Hardhat:
-```sh
-npx hardhat compile
-npx hardhat typechain
+### Starting The API Server
+- `yarn install`
+- `node server/server.js`
 
-## Testing
-Run unit tests using Hardhat:
-```sh
-npx hardhat test
+### Building The Contract
+- `npx hardhat compile`
+- `npx hardhat typechain`
+
+### Testing
+- `npx hardhat test`
+
+### API DOC
+- `GET /api/credit-score/:address`: Receives the address and returns its Credit Score.
+
+
