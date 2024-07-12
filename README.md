@@ -17,6 +17,12 @@ The `CreditScore` contract calculates and stores user credit scores based on tra
 ## Deployment
 Deployed the contract on Sepolia testnet.
 
+## Building
+Build using Hardhat:
+```sh
+npx hardhat compile
+npx hardhat typechain
+
 ## Testing
 Run unit tests using Hardhat:
 ```sh
