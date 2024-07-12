@@ -16,6 +16,7 @@ The `CreditScore` contract calculates and stores user credit scores based on tra
 
 ## Deployment
 Deployed the contract on Sepolia testnet.
+- `https://sepolia.etherscan.io/address/0x0F8C57da3133f76022AFF50BD44ff7A069A64E43`
 
 ### Starting The API Server
 - `yarn install`
